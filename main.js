@@ -9,5 +9,6 @@ function openTab(evt, tab) {
         tablinks[i].className = tablinks[i].className.replace(" acti", "");
     }
     document.getElementById(tab).style.display = "block";
-    evt.currentTarget.className += " acti";
+    evt.currentTarget.className += " acti ";
+    evt.currentTarget.classList.add(" acti ");
 }
