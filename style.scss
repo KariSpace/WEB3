@@ -1,0 +1,98 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(183, 203, 255);
+    padding: 1vh;
+    height: 9%;
+    &.acti {
+        border-width: 1px 0px;
+        background-color: rgb(222, 149, 255);
+    }
+}
+
+.botoom-item {
+    border: 1px solid rgb(0, 0, 0);
+    p {
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 0px;
+    }
+}
+
+.botoom-item {
+    widows: 100%;
+    height: 37%;
+}
+
+%wrap-set {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    width: 1000px;
+    height: 80vh;
+    margin: auto;
+    margin-top: 40px;
+    @extend %wrap-set;
+}
+
+.content-wrap {
+    width: 100%;
+    height: 85%;
+    border: 1px solid black;
+    margin-top: auto;
+    margin-bottom: 0;
+    @extend %wrap-set;
+}
+
+.header {
+    width: 100%;
+    height: 15%;
+    @extend %wrap-set;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+    img {
+        display: block;
+        margin: auto 25px;
+        height: 70px;
+        width: 70px;
+    }
+    h1 {
+        padding: 15px;
+        display: block;
+        width: 80%;
+        color: black;
+        font-size: 3rem;
+    }
+}
+
+.nav {
+    display: block;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(183, 203, 255);
+}
+
+.main {
+    padding: 50px;
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(222, 149, 255);
+}
+
+.tab {
+    display: none;
+}

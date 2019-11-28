@@ -22,6 +22,12 @@ a.acti {
 .botoom-item {
   border: 1px solid black;
 }
+.botoom-item p {
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 0px;
+}
 
 .botoom-item {
   widows: 100%;
