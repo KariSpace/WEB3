@@ -83,11 +83,19 @@ a.acti {
 }
 
 .main {
+  position: relative;
   padding: 50px;
   display: block;
   width: 70%;
   height: 100%;
   background-color: #de95ff;
+}
+
+.main-top-right {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background-color: #757575;
 }
 
 .tab {
